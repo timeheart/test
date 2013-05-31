@@ -23,6 +23,7 @@ def excel():
         sleep(1)
     sh.Cells(i+2,1).Value = "Th-th-th-that's all folks!"
 
+    print 'a'
     warn(app)
     ss.Close(False)
     xl.Application.Quit()
